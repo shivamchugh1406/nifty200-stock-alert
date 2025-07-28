@@ -1,0 +1,8 @@
+flask
+yfinance
+pandas
+APScheduler
+python-dotenv
+beautifulsoup4
+lxml
+nsetools
