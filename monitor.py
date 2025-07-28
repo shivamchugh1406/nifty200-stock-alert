@@ -14,8 +14,8 @@ import io
 # --- Configuration ---
 with open('recipients_email.txt', 'r') as f:
     email = [line.strip() for line in f]
-RECIPIENT_EMAILS = email# Add more recipients as needed
-SENDER_EMAIL = "sachdevavaibhav24@gmail.com"
+RECIPIENT_EMAILS = email
+SENDER_EMAIL = "s@gmail.com"
 with open('password.txt', 'r') as file:
     app_password = file.readline()
 SENDER_PASSWORD = app_password # Get this from your Google Account's App Passwords
